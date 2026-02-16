@@ -6,3 +6,7 @@ const nextConfig = {
 }
 
 export default nextConfig
+
+export default {
+  output: "export", // This tells Next.js to export static HTML
+};
